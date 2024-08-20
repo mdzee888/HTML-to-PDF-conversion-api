@@ -1,0 +1,7 @@
+Install playwright python module
+>> python -m pip install pytest-playwright
+Install browsers for playwright
+For printing pdf, we are using chromium. Run the following command to install chromium browser for playwright
+>> python -m playwright install chromium
+For installing other browsers, run the following command to know the possible options
+>> python -m playwright install --help
